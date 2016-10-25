@@ -1,0 +1,21 @@
+/**
+ * Created by ivanlazarev on 25.10.16.
+ */
+import React, { Component } from 'react';
+import { Link } from 'react-router';
+
+class Header extends Component {
+    render() {
+        return(
+            <nav className="navbar navbar-light">
+                <ul className="nav navbar-nav">
+                    <li className="nav-item">
+                        <Link to="signin">Sign in</Link>
+                    </li>
+                </ul>
+            </nav>
+        );
+    };
+}
+
+export default Header;
